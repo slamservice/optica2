@@ -22,13 +22,13 @@ class UserResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'name';
 
-    protected static ?string $navigationGroup = 'Tabelas';
+    protected static ?string $navigationGroup = 'Configurazioni';
 
     protected static ?int $navigationSort = 1;
 
-    protected static ?string $label = 'Usuário';
+    protected static ?string $label = 'Utente';
 
-    protected static ?string $pluralLabel = 'Usuários';
+    protected static ?string $pluralLabel = 'Utenti';
 
     public static function form(Form $form): Form
     {

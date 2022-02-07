@@ -23,6 +23,8 @@ class RoleResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'name';
 
+
+
     public static function form(Form $form): Form
     {
         return $form
@@ -181,7 +183,7 @@ class RoleResource extends Resource
 
     protected static function getNavigationGroup(): ?string
     {
-        return 'Tabelas';
+        return 'Configurazioni';
     }
 
     protected static function getNavigationLabel(): string

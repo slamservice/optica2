@@ -13,10 +13,10 @@ class Profile extends MyProfile
 {
     use HasPageShield;
 
-    protected static ?string $navigationGroup = "Configurações";
+    protected static ?string $navigationGroup = "Configurazioni";
     protected static ?string $navigationIcon = 'heroicon-o-user-circle';
     protected static ?string $slug = 'profile';
-    protected static ?string $navigationLabel = 'Perfil';
+    protected static ?string $navigationLabel = 'Profilo';
 
     public User $user;
 
