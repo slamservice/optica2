@@ -21,8 +21,8 @@ class RolesAndPermissionsSeeder extends Seeder
     {
 
         $userSuperAdmin = User::factory()->create([
-            'name' => 'Super Administrador',
-            'email' => 'super.admin@test.com',
+            'name' => 'Super Administrator',
+            'email' => 'super.admin@slamservice.it',
             'is_super_admin' => true,
             'is_active' => true,
         ]);
@@ -31,20 +31,20 @@ class RolesAndPermissionsSeeder extends Seeder
         $roleUser = Role::findOrCreate('user', 'web');
 
         $userAdmin = User::factory()->create([
-            'name' => 'Administrador',
-            'email' => 'admin@test.com',
+            'name' => 'Administrator',
+            'email' => 'admin@slamservice.it',
             'is_active' => true,
         ])->assignRole($roleAdmin);
 
-        $user1 = User::factory()->create([
-            'name' => 'Usuário ativo',
-            'email' => 'user1@test.com',
-            'is_active' => true,
-        ])->assignRole($roleUser);
+        // $user1 = User::factory()->create([
+        //     'name' => 'Usuário ativo',
+        //     'email' => 'user1@test.com',
+        //     'is_active' => true,
+        // ])->assignRole($roleUser);
 
-        $user2 = User::factory()->create([
-            'name' => 'Usuário inativo',
-            'email' => 'user2@test.com',
-        ])->assignRole($roleUser);
+        // $user2 = User::factory()->create([
+        //     'name' => 'Usuário inativo',
+        //     'email' => 'user2@test.com',
+        // ])->assignRole($roleUser);
     }
 }
