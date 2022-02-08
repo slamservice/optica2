@@ -941,16 +941,16 @@
         },
         {
             "name": "filament/filament",
-            "version": "v2.10.0",
+            "version": "v2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-filament/admin.git",
-                "reference": "5c82d641a66881d5ca4bf23e07f282a7b0fa6a5e"
+                "reference": "e41fa48d2991ba5a2de78b3222a674c265bc64ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-filament/admin/zipball/5c82d641a66881d5ca4bf23e07f282a7b0fa6a5e",
-                "reference": "5c82d641a66881d5ca4bf23e07f282a7b0fa6a5e",
+                "url": "https://api.github.com/repos/laravel-filament/admin/zipball/e41fa48d2991ba5a2de78b3222a674c265bc64ce",
+                "reference": "e41fa48d2991ba5a2de78b3222a674c265bc64ce",
                 "shasum": ""
             },
             "require": {
@@ -997,11 +997,11 @@
                 "issues": "https://github.com/laravel-filament/filament/issues",
                 "source": "https://github.com/laravel-filament/filament"
             },
-            "time": "2022-02-07T21:49:20+00:00"
+            "time": "2022-02-08T09:28:21+00:00"
         },
         {
             "name": "filament/forms",
-            "version": "v2.10.0",
+            "version": "v2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-filament/forms.git",
@@ -1057,7 +1057,7 @@
         },
         {
             "name": "filament/tables",
-            "version": "v2.10.0",
+            "version": "v2.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-filament/tables.git",
@@ -9361,11 +9361,11 @@
                 }
             },
             "autoload": {
-                "classmap": [
-                    "src/"
-                ],
                 "files": [
                     "src/Framework/Assert/Functions.php"
+                ],
+                "classmap": [
+                    "src/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",

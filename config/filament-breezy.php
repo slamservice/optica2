@@ -35,7 +35,7 @@ return [
     |--------------------------------------------------------------------------
     | Enable or disable registration.
     */
-    "enable_registration" => true,
+    "enable_registration" => false,
     /*
     |--------------------------------------------------------------------------
     | Where to redirect the user after registration.
