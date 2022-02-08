@@ -29,9 +29,17 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Filament::registerNavigationGroups([
+            'Anagrafiche',
+            'Configurazioni',
+        ]);
+
         Filament::serving(function (): void {
             Filament::registerTheme(mix('css/app.css'));
+
         });
+
+
 
         Model::preventLazyLoading(!app()->isProduction());
     }
